@@ -1,0 +1,32 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.tihom.secutity.core.properties.SecurityProperties",
+      "name": "tihom.security",
+      "type": "com.tihom.secutity.core.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.tihom.secutity.core.properties.SecurityProperties",
+      "name": "tihom.security.browser",
+      "type": "com.tihom.secutity.core.properties.BrowserProperties"
+    },
+    {
+      "sourceType": "com.tihom.secutity.core.properties.SecurityProperties",
+      "name": "tihom.security.code",
+      "type": "com.tihom.secutity.core.properties.ValidateCodeProperties"
+    },
+    {
+      "sourceType": "com.tihom.secutity.core.properties.SecurityProperties",
+      "name": "tihom.security.oauth2",
+      "type": "com.tihom.secutity.core.properties.OAuth2Properties"
+    },
+    {
+      "sourceType": "com.tihom.secutity.core.properties.SecurityProperties",
+      "name": "tihom.security.social",
+      "type": "com.tihom.secutity.core.properties.SocialProperties"
+    }
+  ]
+}
