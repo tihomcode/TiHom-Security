@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
- * 验证码处理器的持有者,要获取先来这里通过验证和查询
+ * 校验码处理器管理器,要获取先来这里通过验证和查询
  * @author TiHom
  *
  */

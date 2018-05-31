@@ -4,8 +4,8 @@ package com.tihom.secutity.core.validate.code;
 import com.tihom.secutity.core.properties.SecurityConstants;
 
 /**
+ * 校验码类型
  * @author TiHom
- *
  */
 public enum ValidateCodeType {
 	

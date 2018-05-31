@@ -2,6 +2,7 @@ package com.tihom.security.app.config;
 
 import com.tihom.security.app.social.openid.OpenIdAuthenticationSecurityConfig;
 import com.tihom.secutity.core.authentication.mobile.SmsCodeAuthenticationSecurityConfig;
+import com.tihom.secutity.core.authorize.AuthorizeConfigManager;
 import com.tihom.secutity.core.properties.SecurityConstants;
 import com.tihom.secutity.core.properties.SecurityProperties;
 import com.tihom.secutity.core.validate.code.ValidateCodeSecurityConfig;
@@ -15,6 +16,7 @@ import org.springframework.security.web.authentication.AuthenticationSuccessHand
 import org.springframework.social.security.SpringSocialConfigurer;
 
 /**
+ * 资源服务器配置
  * @author TiHom
  */
 
@@ -43,6 +45,9 @@ public class TiHomResourceServerConfig extends ResourceServerConfigurerAdapter {
     @Autowired
     private OpenIdAuthenticationSecurityConfig openIdAuthenticationSecurityConfig;
 
+    @Autowired
+    private AuthorizeConfigManager authorizeConfigManager;
+
     @Override
     public void configure(HttpSecurity http) throws Exception {
         http.formLogin()
@@ -61,20 +66,7 @@ public class TiHomResourceServerConfig extends ResourceServerConfigurerAdapter {
                 .and()
             .apply(openIdAuthenticationSecurityConfig)
                 .and()
-            .authorizeRequests()   //认证请求
-                .antMatchers(
-                    SecurityConstants.DEFAULT_UNAUTHENTICATION_URL,
-                    SecurityConstants.DEFAULT_LOGIN_PROCESSING_URL_MOBILE,
-                    securityProperties.getBrowser().getLoginPage(),
-                    SecurityConstants.DEFAULT_VALIDATE_CODE_URL_PREFIX + "/*",
-                    securityProperties.getBrowser().getSignUpUrl(),
-                    securityProperties.getBrowser().getSession().getSessionInvalidUrl(),
-                    securityProperties.getBrowser().getSignOutUrl(),
-                    "/user/regist","/social/signUp")
-                    .permitAll() //当我访问这个url的时候,我不需要身份认证就可以访问,其他的都需要认证
-                .anyRequest()   //任何请求
-                .authenticated()   //认证
-                .and()
-                .csrf().disable();  //防护的功能关闭
+            .csrf().disable();  //防护的功能关闭
+        authorizeConfigManager.config(http.authorizeRequests());
     }
 }

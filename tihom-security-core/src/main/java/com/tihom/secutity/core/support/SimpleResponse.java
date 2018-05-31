@@ -1,6 +1,7 @@
 package com.tihom.secutity.core.support;
 
 /**
+ * 简单响应的封装类
  * @author TiHom
  */
 public class SimpleResponse {

@@ -3,6 +3,7 @@ package com.tihom.secutity.core.properties;
 import org.springframework.boot.autoconfigure.social.SocialProperties;
 
 /**
+ * 微信登录配置项
  * @author TiHom
  */
 public class WeixinProperties extends SocialProperties {

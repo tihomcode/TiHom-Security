@@ -13,6 +13,7 @@ import org.springframework.security.oauth2.config.annotation.configurers.ClientD
 import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer;
+import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer;
 import org.springframework.security.oauth2.provider.token.TokenEnhancer;
 import org.springframework.security.oauth2.provider.token.TokenEnhancerChain;
 import org.springframework.security.oauth2.provider.token.TokenStore;
@@ -22,6 +23,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 认证服务器配置
  * @author TiHom
  */
 
@@ -46,6 +48,11 @@ public class TiHomAuthorizationServerConfig extends AuthorizationServerConfigure
     @Autowired(required = false)
     private TokenEnhancer jwtTokenEnhancer;
 
+    /**
+     * 认证及token配置
+     * @param endpoints
+     * @throws Exception
+     */
     @Override
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
         endpoints
@@ -69,6 +76,21 @@ public class TiHomAuthorizationServerConfig extends AuthorizationServerConfigure
         }
     }
 
+    /**
+     * tokenKey的访问权限表达式配置
+     * @param security
+     * @throws Exception
+     */
+    @Override
+    public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
+        security.tokenKeyAccess("permitAll()");
+    }
+
+    /**
+     * 客户端配置
+     * @param clients
+     * @throws Exception
+     */
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
         //覆盖这个方法后,在application.properties中的配置都是无效的

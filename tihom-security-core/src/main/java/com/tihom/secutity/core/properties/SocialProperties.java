@@ -1,6 +1,7 @@
 package com.tihom.secutity.core.properties;
 
 /**
+ * 社交登录配置项
  * @author TiHom
  */
 public class SocialProperties {
@@ -9,6 +10,9 @@ public class SocialProperties {
 
     private WeixinProperties weixin = new WeixinProperties();
 
+    /**
+     * 社交登录功能拦截的url
+     */
     private String filterProcessesUrl = "/auth";
 
     public QQProperties getQq() {

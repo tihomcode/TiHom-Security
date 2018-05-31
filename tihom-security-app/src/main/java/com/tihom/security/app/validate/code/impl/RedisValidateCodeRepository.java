@@ -3,7 +3,7 @@ package com.tihom.security.app.validate.code.impl;
 import com.tihom.secutity.core.validate.code.ValidateCode;
 import com.tihom.secutity.core.validate.code.ValidateCodeException;
 import com.tihom.secutity.core.validate.code.ValidateCodeType;
-import com.tihom.secutity.core.validate.code.sms.ValidateCodeRepository;
+import com.tihom.secutity.core.validate.code.ValidateCodeRepository;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -13,7 +13,7 @@ import org.springframework.web.context.request.ServletWebRequest;
 import java.util.concurrent.TimeUnit;
 
 /**
- * redis的验证码策略
+ * 基于redis的验证码存取器，避免由于没有session导致无法存取验证码的问题
  * @author TiHom
  */
 @Component

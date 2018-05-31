@@ -1,6 +1,6 @@
 package com.tihom.security.app.social.impl;
 
-import com.tihom.secutity.core.social.SocialAuthenticationFilterPostProcessor;
+import com.tihom.secutity.core.social.support.SocialAuthenticationFilterPostProcessor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.social.security.SocialAuthenticationFilter;

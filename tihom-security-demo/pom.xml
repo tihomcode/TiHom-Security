@@ -23,6 +23,11 @@
             <!--<version>${tihom.security.version}</version>-->
         <!--</dependency>-->
         <dependency>
+            <groupId>com.tihom</groupId>
+            <artifactId>tihom-security-authorize</artifactId>
+            <version>${tihom.security.version}</version>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
         </dependency>

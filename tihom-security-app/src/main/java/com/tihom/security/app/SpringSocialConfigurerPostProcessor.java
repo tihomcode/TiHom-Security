@@ -1,6 +1,6 @@
 package com.tihom.security.app;
 
-import com.tihom.secutity.core.social.TihomSpringSocialConfigurer;
+import com.tihom.secutity.core.social.support.TihomSpringSocialConfigurer;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;

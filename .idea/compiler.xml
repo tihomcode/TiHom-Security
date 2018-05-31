@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="test" />
         <module name="tihom-security-app" />
+        <module name="tihom-security-authorize" />
         <module name="tihom-security-browser" />
         <module name="tihom-security-core" />
         <module name="tihom-security-demo" />

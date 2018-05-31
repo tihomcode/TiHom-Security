@@ -11,21 +11,25 @@
     {
       "sourceType": "com.tihom.secutity.core.properties.SecurityProperties",
       "name": "tihom.security.browser",
+      "description": "浏览器环境配置",
       "type": "com.tihom.secutity.core.properties.BrowserProperties"
     },
     {
       "sourceType": "com.tihom.secutity.core.properties.SecurityProperties",
       "name": "tihom.security.code",
+      "description": "验证码配置",
       "type": "com.tihom.secutity.core.properties.ValidateCodeProperties"
     },
     {
       "sourceType": "com.tihom.secutity.core.properties.SecurityProperties",
       "name": "tihom.security.oauth2",
+      "description": "OAuth2认证服务器配置",
       "type": "com.tihom.secutity.core.properties.OAuth2Properties"
     },
     {
       "sourceType": "com.tihom.secutity.core.properties.SecurityProperties",
       "name": "tihom.security.social",
+      "description": "社交登录配置",
       "type": "com.tihom.secutity.core.properties.SocialProperties"
     }
   ]

@@ -23,6 +23,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
+ * APP环境下认证成功处理器
  * @author TiHom
  */
 @Component("tiHomAuthenticationSuccessHandler")

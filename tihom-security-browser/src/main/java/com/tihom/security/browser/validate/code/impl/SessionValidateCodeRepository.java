@@ -2,12 +2,13 @@ package com.tihom.security.browser.validate.code.impl;
 
 import com.tihom.secutity.core.validate.code.ValidateCode;
 import com.tihom.secutity.core.validate.code.ValidateCodeType;
-import com.tihom.secutity.core.validate.code.sms.ValidateCodeRepository;
+import com.tihom.secutity.core.validate.code.ValidateCodeRepository;
 import org.springframework.social.connect.web.SessionStrategy;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.ServletWebRequest;
 
 /**
+ * 基于session的验证码存取器
  * @author TiHom
  */
 @Component

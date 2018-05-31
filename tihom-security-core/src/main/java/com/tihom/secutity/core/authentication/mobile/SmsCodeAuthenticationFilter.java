@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
+ * 短信登录过滤器
  * @author TiHom
  */
 public class SmsCodeAuthenticationFilter extends AbstractAuthenticationProcessingFilter {
@@ -41,6 +42,9 @@ public class SmsCodeAuthenticationFilter extends AbstractAuthenticationProcessin
         }
     }
 
+    /**
+     * 获取手机号
+     */
     protected String obtainMobile(HttpServletRequest request) {
         return request.getParameter(this.mobileParameter);
     }

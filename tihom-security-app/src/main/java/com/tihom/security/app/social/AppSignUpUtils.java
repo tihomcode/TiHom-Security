@@ -14,6 +14,7 @@ import org.springframework.web.context.request.WebRequest;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * app环境下替换providerSignInUtils，避免由于没有session导致读不到社交用户信息的问题
  * @author TiHom
  */
 
@@ -35,13 +36,18 @@ public class AppSignUpUtils {
     @Autowired
     private ConnectionFactoryLocator connectionFactoryLocator;
 
+    /**
+     * 缓存社交网站用户信息到redis
+     * @param request
+     * @param connectionData
+     */
     public void saveConnectionData(WebRequest request, ConnectionData connectionData){
         //设置10分钟自动清除数据
         redisTemplate.opsForValue().set(getKey(request),connectionData,10,TimeUnit.MINUTES);
     }
 
     /**
-     * 绑定
+     * 将缓存的社交网站用户信息与系统注册用户信息绑定
      * @param request
      * @param userId
      */
@@ -61,6 +67,11 @@ public class AppSignUpUtils {
         redisTemplate.delete(key);
     }
 
+    /**
+     * 获取redis key
+     * @param request
+     * @return
+     */
     private String getKey(WebRequest request) {
         String deviceId = request.getHeader("deviceId");
         if(StringUtils.isBlank(deviceId)){

@@ -18,6 +18,8 @@
         <module>tihom-security-app</module>
         <module>tihom-security-browser</module>
         <module>tihom-security-demo</module>
+        <module>tihom-security-authorize</module>
+        <module>test</module>
     </modules>
 
     <dependencyManagement>

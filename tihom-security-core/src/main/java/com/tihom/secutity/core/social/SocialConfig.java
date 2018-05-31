@@ -1,6 +1,8 @@
 package com.tihom.secutity.core.social;
 
 import com.tihom.secutity.core.properties.SecurityProperties;
+import com.tihom.secutity.core.social.support.SocialAuthenticationFilterPostProcessor;
+import com.tihom.secutity.core.social.support.TihomSpringSocialConfigurer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,7 +19,7 @@ import org.springframework.social.security.SpringSocialConfigurer;
 import javax.sql.DataSource;
 
 /**
- * 社交配置的适配器
+ * 社交登录配置主类
  * @author TiHom
  */
 
@@ -48,6 +50,9 @@ public class SocialConfig extends SocialConfigurerAdapter {
         return repository;
     }
 
+    /**
+     * 社交登录配置类,供浏览器或app模块引入设计登录配置用
+     */
     @Bean
     public SpringSocialConfigurer tihomSocialSecurityConfig(){
         TihomSpringSocialConfigurer configurer = new TihomSpringSocialConfigurer
@@ -58,6 +63,11 @@ public class SocialConfig extends SocialConfigurerAdapter {
         return configurer;
     }
 
+    /**
+     * 用来处理注册流程的工具类
+     * @param connectionFactoryLocator
+     * @return
+     */
     @Bean
     public ProviderSignInUtils providerSignInUtils(ConnectionFactoryLocator connectionFactoryLocator){
         return new ProviderSignInUtils(connectionFactoryLocator,

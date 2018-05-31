@@ -7,6 +7,7 @@ import org.springframework.security.core.GrantedAuthority;
 import java.util.Collection;
 
 /**
+ * 短信登录验证信息封装类
  * @author TiHom
  */
 public class SmsCodeAuthenticationToken extends AbstractAuthenticationToken {

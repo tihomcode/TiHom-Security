@@ -1,7 +1,7 @@
 package com.tihom.security.app;
 
 import com.tihom.security.app.social.AppSignUpUtils;
-import com.tihom.secutity.core.support.SocialUserInfo;
+import com.tihom.secutity.core.social.support.SocialUserInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.social.connect.Connection;
@@ -25,6 +25,11 @@ public class AppSecretController {
     @Autowired
     private AppSignUpUtils appSignUpUtils;
 
+    /**
+     * 要注册时跳到这里，返回401和用户信息给前端
+     * @param request
+     * @return
+     */
     @GetMapping("/social/signUp")
     @ResponseStatus(HttpStatus.UNAUTHORIZED)
     public SocialUserInfo getSocialUserInfo(HttpServletRequest request){

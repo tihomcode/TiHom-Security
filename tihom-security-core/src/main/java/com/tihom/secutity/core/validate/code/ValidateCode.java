@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 
 /**
+ * 验证码信息封装类
  * @author TiHom
  */
 public class ValidateCode implements Serializable {

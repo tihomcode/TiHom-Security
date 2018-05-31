@@ -9,13 +9,24 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix = "tihom.security")  //意思是这个类会读取整个系统中以tihom.security开头的配置
 public class SecurityProperties {
 
-    //browser的属性都会配置在这个BrowserProperties中
+    /**
+     * 浏览器环境配置
+     */
     private BrowserProperties browser = new BrowserProperties();
 
+    /**
+     * 验证码配置
+     */
     private ValidateCodeProperties code = new ValidateCodeProperties();
 
+    /**
+     * 社交登录配置
+     */
     private SocialProperties social = new SocialProperties();
 
+    /**
+     * OAuth2认证服务器配置
+     */
     private OAuth2Properties oauth2 = new OAuth2Properties();
 
     public BrowserProperties getBrowser(){

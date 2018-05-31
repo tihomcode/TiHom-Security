@@ -18,6 +18,7 @@ import org.springframework.util.Assert;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
+ * 抽象的session失效处理器
  * @author TiHom
  */
 public class AbstractSessionStrategy {
@@ -78,21 +79,12 @@ public class AbstractSessionStrategy {
 
 	/**
 	 * session失效是否是并发导致的
-	 * @return
 	 */
 	protected boolean isConcurrency() {
 		return false;
 	}
 
-	/**
-	 * Determines whether a new session should be created before redirecting (to
-	 * avoid possible looping issues where the same session ID is sent with the
-	 * redirected request). Alternatively, ensure that the configured URL does
-	 * not pass through the {@code SessionManagementFilter}.
-	 *
-	 * @param createNewSession
-	 *            defaults to {@code true}.
-	 */
+
 	public void setCreateNewSession(boolean createNewSession) {
 		this.createNewSession = createNewSession;
 	}

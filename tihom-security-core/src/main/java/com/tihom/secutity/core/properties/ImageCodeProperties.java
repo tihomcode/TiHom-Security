@@ -1,6 +1,7 @@
 package com.tihom.secutity.core.properties;
 
 /**
+ * 图片验证码配置项
  * @author TiHom
  */
 public class ImageCodeProperties extends SmsCodeProperties{

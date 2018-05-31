@@ -1,7 +1,7 @@
 package com.tihom.secutity.core.validate.code.impl;
 
 import com.tihom.secutity.core.validate.code.*;
-import com.tihom.secutity.core.validate.code.sms.ValidateCodeRepository;
+import com.tihom.secutity.core.validate.code.ValidateCodeRepository;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.ServletRequestBindingException;
@@ -11,6 +11,7 @@ import org.springframework.web.context.request.ServletWebRequest;
 import java.util.Map;
 
 /**
+ * 抽象的图片验证码处理器
  * @author TiHom
  */
 

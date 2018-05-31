@@ -6,6 +6,7 @@ import java.awt.image.BufferedImage;
 import java.time.LocalDateTime;
 
 /**
+ * 图片验证码
  * @author TiHom
  */
 public class ImageCode extends ValidateCode {

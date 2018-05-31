@@ -12,6 +12,7 @@ import java.awt.*;
 import java.util.Random;
 
 /**
+ * 短信验证码生成器
  * @author TiHom
  */
 
