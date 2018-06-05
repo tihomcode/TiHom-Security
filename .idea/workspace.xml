@@ -1,397 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d31fec2-225b-427c-ae4c-8b43e19e08d0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/application-example.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/extends.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/main/java/com/tihom/TestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/main/java/com/tihom/TestAuthorizeConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/main/java/com/tihom/TestUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/main/resources/resources/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/main/resources/resources/signUp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/authentication/RbacUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/authorize/RbacAuthorizeConfigProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/domain/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/domain/Resource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/domain/ResourceType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/domain/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/domain/RoleAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/domain/RoleResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/dto/AdminCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/dto/AdminInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/dto/ResourceInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/dto/RoleInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/init/AbstractDataInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/init/AdminDataInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/init/DataInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/init/SystemDataInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/repository/AdminRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/repository/ImoocRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/repository/ResourceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/repository/RoleAdminRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/repository/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/repository/RoleResourceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/repository/spec/AdminSpec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/repository/support/AbstractConditionBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/repository/support/AbstractDomain2InfoConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/repository/support/AbstractEventConditionBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/repository/support/Domain2InfoConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/repository/support/GenericUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/repository/support/ImoocImplicitNamingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/repository/support/ImoocSpecification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/repository/support/QueryResultConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/repository/support/QueryWraper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/service/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/service/RbacService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/service/ResourceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/service/impl/RbacServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/service/impl/ResourceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/web/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/web/controller/ResourceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/web/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/web/controller/support/SimpleResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/fonts/ionicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/fonts/ionicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/fonts/ionicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/fonts/ionicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/manage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/commons/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/commons/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/angular-animate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/angular-cookies.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/angular-deckgrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/angular-locale_zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/angular-resource.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/angular-sanitize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/angular-touch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/angular-tree-control.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/angular-ui-router.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/angular.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/canvas-to-blob.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/city-picker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/iscroll-infinite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/iscroll-lite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/iscroll-probe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/iscroll-zoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/iscroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/jquery-2.1.4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/jquery-weui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/jquery-weui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/jquery.blueimp-gallery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/jquery.slimscroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/load-image.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/mbdatepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/mobiscroll.custom-2.17.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/ng-infinite-scroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/ng-iscroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/advlist/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/advlist/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/anchor/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/anchor/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/autolink/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/autolink/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/autoresize/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/autoresize/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/autosave/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/autosave/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/bbcode/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/bbcode/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/charmap/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/charmap/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/code/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/code/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/codesample/css/prism.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/codesample/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/codesample/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/colorpicker/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/colorpicker/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/contextmenu/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/contextmenu/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/directionality/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/directionality/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/emoticons/img/smiley-cool.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/emoticons/img/smiley-cry.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/emoticons/img/smiley-embarassed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/emoticons/img/smiley-frown.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/emoticons/img/smiley-innocent.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/emoticons/img/smiley-kiss.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/emoticons/img/smiley-laughing.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/emoticons/img/smiley-money-mouth.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/emoticons/img/smiley-sealed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/emoticons/img/smiley-smile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/emoticons/img/smiley-surprised.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/emoticons/img/smiley-tongue-out.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/emoticons/img/smiley-undecided.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/emoticons/img/smiley-wink.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/emoticons/img/smiley-yell.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/emoticons/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/emoticons/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/fullpage/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/fullpage/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/fullscreen/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/fullscreen/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/hr/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/hr/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/image/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/image/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/imagetools/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/imagetools/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/importcss/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/importcss/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/insertdatetime/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/insertdatetime/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/layer/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/layer/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/legacyoutput/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/legacyoutput/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/link/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/link/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/lists/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/lists/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/media/moxieplayer.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/media/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/media/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/nonbreaking/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/nonbreaking/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/noneditable/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/noneditable/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/pagebreak/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/pagebreak/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/paste/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/paste/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/preview/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/preview/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/print/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/print/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/save/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/save/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/searchreplace/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/searchreplace/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/spellchecker/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/spellchecker/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/tabfocus/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/tabfocus/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/table/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/table/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/template/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/template/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/textcolor/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/textcolor/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/textpattern/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/textpattern/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/visualblocks/css/visualblocks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/visualblocks/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/visualblocks/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/visualchars/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/visualchars/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/wordcount/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/plugins/wordcount/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/select.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/simplify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/simplify_dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/skins/lightgray/content.inline.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/skins/lightgray/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/skins/lightgray/fonts/tinymce-small.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/skins/lightgray/fonts/tinymce-small.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/skins/lightgray/fonts/tinymce-small.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/skins/lightgray/fonts/tinymce-small.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/skins/lightgray/fonts/tinymce.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/skins/lightgray/fonts/tinymce.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/skins/lightgray/fonts/tinymce.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/skins/lightgray/fonts/tinymce.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/skins/lightgray/img/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/skins/lightgray/img/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/skins/lightgray/img/object.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/skins/lightgray/img/trans.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/skins/lightgray/skin.ie7.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/skins/lightgray/skin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/swiper-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/themes/modern/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/themes/modern/theme.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/tinymce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/tinymce.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/toastr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/ui-bootstrap-tpls.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/ui-bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/framework/uploader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/platform/controller/adminController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/platform/controller/resourceController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/platform/controller/roleController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/platform/controller/sidebarController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/scripts/platform/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/blueimp-gallery.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/frozen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/icons_mobiscroll.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/icons_mobiscroll.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/icons_mobiscroll.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/icons_mobiscroll.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/images/spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/ionicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/jquery.fileupload-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/jquery.fileupload.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/mbdatepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/mobiscroll.custom-2.17.2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/pzx-index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/select.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/simplify.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/swiper-3.3.1.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/toastr.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/tree-control-attribute.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/styles/tree-control.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/views/commons/confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/views/commons/partials/content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/views/commons/partials/offsidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/views/commons/partials/sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/views/commons/partials/top-navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/views/commons/password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/views/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/views/platform/adminForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/views/platform/adminManage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/views/platform/resourceForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/views/platform/resourceManage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/views/platform/roleForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-authorize/src/main/resources/resources/views/platform/roleManage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/authorize/AuthorizeConfigManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/authorize/AuthorizeConfigProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/authorize/TiHomAuthorizeConfigManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/authorize/TiHomAuthorizeConfigProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tihom-security-demo/src/main/java/com/tihom/security/DemoAuthorizeConfigProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-app/src/main/java/com/tihom/security/app/AppSecretController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-app/src/main/java/com/tihom/security/app/AppSecretController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-app/src/main/java/com/tihom/security/app/SpringSocialConfigurerPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-app/src/main/java/com/tihom/security/app/SpringSocialConfigurerPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-app/src/main/java/com/tihom/security/app/authentication/TiHomAuthenticationFailureHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-app/src/main/java/com/tihom/security/app/authentication/TiHomAuthenticationFailureHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-app/src/main/java/com/tihom/security/app/authentication/TiHomAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-app/src/main/java/com/tihom/security/app/authentication/TiHomAuthenticationSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-app/src/main/java/com/tihom/security/app/config/TiHomAuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-app/src/main/java/com/tihom/security/app/config/TiHomAuthorizationServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-app/src/main/java/com/tihom/security/app/config/TiHomResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-app/src/main/java/com/tihom/security/app/config/TiHomResourceServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-app/src/main/java/com/tihom/security/app/social/AppSignUpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-app/src/main/java/com/tihom/security/app/social/AppSignUpUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-app/src/main/java/com/tihom/security/app/social/impl/AppSocialAuthenticationFilterPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-app/src/main/java/com/tihom/security/app/social/impl/AppSocialAuthenticationFilterPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-app/src/main/java/com/tihom/security/app/validate/code/impl/RedisValidateCodeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-app/src/main/java/com/tihom/security/app/validate/code/impl/RedisValidateCodeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-app/target/classes/com/tihom/security/app/AppSecretController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-app/target/classes/com/tihom/security/app/AppSecretController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-app/target/classes/com/tihom/security/app/TokenStoreConfig$JwtTokenConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-app/target/classes/com/tihom/security/app/TokenStoreConfig$JwtTokenConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-app/target/classes/com/tihom/security/app/TokenStoreConfig$RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-app/target/classes/com/tihom/security/app/TokenStoreConfig$RedisConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-app/target/classes/com/tihom/security/app/authentication/TiHomAuthenticationFailureHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-app/target/classes/com/tihom/security/app/authentication/TiHomAuthenticationFailureHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-app/target/classes/com/tihom/security/app/authentication/TiHomAuthenticationSuccessHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-app/target/classes/com/tihom/security/app/authentication/TiHomAuthenticationSuccessHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-app/target/classes/com/tihom/security/app/config/TiHomAuthorizationServerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-app/target/classes/com/tihom/security/app/config/TiHomAuthorizationServerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-app/target/classes/com/tihom/security/app/config/TiHomResourceServerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-app/target/classes/com/tihom/security/app/config/TiHomResourceServerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-app/target/classes/com/tihom/security/app/social/AppSignUpUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-app/target/classes/com/tihom/security/app/social/AppSignUpUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-browser/src/main/java/com/tihom/security/browser/BrowserSecurityBeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-browser/src/main/java/com/tihom/security/browser/BrowserSecurityBeanConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-browser/src/main/java/com/tihom/security/browser/BrowserSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-browser/src/main/java/com/tihom/security/browser/BrowserSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-browser/src/main/java/com/tihom/security/browser/BrowserSecurityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-browser/src/main/java/com/tihom/security/browser/BrowserSecurityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-browser/src/main/java/com/tihom/security/browser/authentication/TiHomAuthenticationFailureHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-browser/src/main/java/com/tihom/security/browser/authentication/TiHomAuthenticationFailureHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-browser/src/main/java/com/tihom/security/browser/authentication/TiHomAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-browser/src/main/java/com/tihom/security/browser/authentication/TiHomAuthenticationSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-browser/src/main/java/com/tihom/security/browser/logout/TiHomLogoutSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-browser/src/main/java/com/tihom/security/browser/logout/TiHomLogoutSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-browser/src/main/java/com/tihom/security/browser/session/AbstractSessionStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-browser/src/main/java/com/tihom/security/browser/session/AbstractSessionStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-browser/src/main/java/com/tihom/security/browser/session/TiHomExpiredSessionStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-browser/src/main/java/com/tihom/security/browser/session/TiHomExpiredSessionStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-browser/src/main/java/com/tihom/security/browser/session/TiHomInvalidSessionStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-browser/src/main/java/com/tihom/security/browser/session/TiHomInvalidSessionStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-browser/src/main/java/com/tihom/security/browser/validate/code/impl/SessionValidateCodeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-browser/src/main/java/com/tihom/security/browser/validate/code/impl/SessionValidateCodeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-browser/target/classes/com/tihom/security/browser/BrowserSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-browser/target/classes/com/tihom/security/browser/BrowserSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-browser/target/classes/com/tihom/security/browser/authentication/TiHomAuthenticationSuccessHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-browser/target/classes/com/tihom/security/browser/authentication/TiHomAuthenticationSuccessHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/authentication/mobile/SmsCodeAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/authentication/mobile/SmsCodeAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/authentication/mobile/SmsCodeAuthenticationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/authentication/mobile/SmsCodeAuthenticationProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/authentication/mobile/SmsCodeAuthenticationSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/authentication/mobile/SmsCodeAuthenticationSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/authentication/mobile/SmsCodeAuthenticationToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/authentication/mobile/SmsCodeAuthenticationToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/BrowserProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/BrowserProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/ImageCodeProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/ImageCodeProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/LoginType.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/LoginType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/OAuth2ClientProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/OAuth2ClientProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/OAuth2Properties.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/OAuth2Properties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/QQProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/QQProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/SecurityProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/SecurityProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/SessionProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/SessionProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/SmsCodeProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/SmsCodeProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/SocialProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/SocialProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/ValidateCodeProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/ValidateCodeProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/WeixinProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/properties/WeixinProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/social/SocialAuthenticationFilterPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/social/support/SocialAuthenticationFilterPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/social/SocialConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/social/SocialConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/social/TihomSpringSocialConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/social/support/TihomSpringSocialConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/support/SimpleResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/support/SimpleResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/support/SocialUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/social/support/SocialUserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/ValidateCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/ValidateCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/ValidateCodeBeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/ValidateCodeBeanConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/ValidateCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/ValidateCodeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/ValidateCodeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/ValidateCodeFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/ValidateCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/ValidateCodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/ValidateCodeProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/ValidateCodeProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/ValidateCodeProcessorHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/ValidateCodeProcessorHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/ValidateCodeSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/ValidateCodeSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/ValidateCodeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/ValidateCodeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/image/ImageCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/image/ImageCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/image/ImageCodeProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/image/ImageCodeProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/impl/AbstractValidateCodeProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/impl/AbstractValidateCodeProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/sms/DefaultSmsCodeSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/sms/DefaultSmsCodeSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/sms/SmsCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/sms/SmsCodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/sms/SmsCodeProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/sms/SmsCodeProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/sms/ValidateCodeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/src/main/java/com/tihom/secutity/core/validate/code/ValidateCodeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/authentication/mobile/SmsCodeAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/authentication/mobile/SmsCodeAuthenticationFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/authentication/mobile/SmsCodeAuthenticationProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/authentication/mobile/SmsCodeAuthenticationProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/authentication/mobile/SmsCodeAuthenticationSecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/authentication/mobile/SmsCodeAuthenticationToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/authentication/mobile/SmsCodeAuthenticationToken.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/BrowserProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/BrowserProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/ImageCodeProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/ImageCodeProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/LoginType.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/LoginType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/OAuth2ClientProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/OAuth2ClientProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/OAuth2Properties.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/OAuth2Properties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/QQProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/QQProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/SecurityProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/SecurityProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/SessionProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/SessionProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/SmsCodeProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/SmsCodeProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/SocialProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/SocialProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/ValidateCodeProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/ValidateCodeProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/WeixinProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/properties/WeixinProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/social/SocialAuthenticationFilterPostProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/social/SocialConfig$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/social/SocialConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/social/TihomSpringSocialConfigurer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/support/SimpleResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/support/SimpleResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/support/SocialUserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/validate/code/ValidateCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/validate/code/ValidateCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/validate/code/ValidateCodeBeanConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/validate/code/ValidateCodeBeanConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/validate/code/ValidateCodeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/validate/code/ValidateCodeFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/validate/code/ValidateCodeFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/validate/code/image/ImageCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/validate/code/image/ImageCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/validate/code/image/ImageCodeProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/validate/code/image/ImageCodeProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/validate/code/impl/AbstractValidateCodeProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/validate/code/impl/AbstractValidateCodeProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/validate/code/sms/DefaultSmsCodeSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/validate/code/sms/DefaultSmsCodeSender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/validate/code/sms/SmsCodeGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/validate/code/sms/SmsCodeProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/validate/code/sms/SmsCodeProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-core/target/classes/com/tihom/secutity/core/validate/code/sms/ValidateCodeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-demo/src/main/java/com/tihom/security/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-demo/src/main/java/com/tihom/security/MyUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-demo/target/classes/com/tihom/security/MyUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-demo/target/classes/com/tihom/security/MyUserDetailsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tihom-security-demo/target/classes/com/tihom/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tihom-security-demo/target/classes/com/tihom/web/controller/UserController.class" afterDir="false" />
-    </list>
+    <list default="true" id="6d31fec2-225b-427c-ae4c-8b43e19e08d0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/tihom-security-core/target/" />
@@ -409,119 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ResourceServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/service/impl/ResourceServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1430">
-              <caret line="67" column="7" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/service/impl/RoleServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2266">
-              <caret line="105" column="7" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/service/AdminService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RbacService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/service/RbacService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResourceService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/service/ResourceService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/service/RoleService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-258">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/web/controller/support/SimpleResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/web/controller/AdminController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-668">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResourceController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/web/controller/ResourceController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-690">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/web/controller/RoleController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-712">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -648,56 +146,6 @@
             <path>
               <item name="tihom-security" type="b2602c69:ProjectViewProjectNode" />
               <item name="tihom-security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tihom-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tihom-security" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tihom-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tihom-security" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tihom-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tihom-security" type="462c0819:PsiDirectoryNode" />
-              <item name="tihom-security-browser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tihom-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tihom-security" type="462c0819:PsiDirectoryNode" />
-              <item name="tihom-security-browser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tihom-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tihom-security" type="462c0819:PsiDirectoryNode" />
-              <item name="tihom-security-browser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tihom-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tihom-security" type="462c0819:PsiDirectoryNode" />
-              <item name="tihom-security-browser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tihom-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tihom-security" type="462c0819:PsiDirectoryNode" />
-              <item name="tihom-security-browser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tihom-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tihom-security" type="462c0819:PsiDirectoryNode" />
-              <item name="tihom-security-demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -954,7 +402,7 @@
       <workItem from="1527690053421" duration="1909000" />
       <workItem from="1527733095868" duration="1467000" />
       <workItem from="1527740527987" duration="3692000" />
-      <workItem from="1527753055856" duration="12917000" />
+      <workItem from="1527753055856" duration="13532000" />
     </task>
     <servers />
   </component>
@@ -991,7 +439,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231552000" />
+    <option name="totallyTimeSpent" value="232167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="34" width="1853" height="1046" extended-state="6" />
@@ -1017,7 +465,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.33006537" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1973466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18960752" />
       <window_info anchor="bottom" id="Run with VisualVM" order="13" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="6" side_tool="true" />
@@ -1047,16 +495,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/tihom/TestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="32" column="77" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tihom-security-authorize/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1523,13 +961,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tihom-security-authorize/src/main/java/com/tihom/security/rbac/web/controller/RoleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-712">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        <state relative-caret-position="138">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/extends.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
